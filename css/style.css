@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* Colors */
+/* Body */
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Helvetica;
+  background-color: #2d3436;
+  color: white;
+}
+
+/* Header */
+.header {
+  background-color: #2d3436;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 65px;
+  font-size: 1.7em;
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header a:hover {
+  color: #686de0;
+}
+
+.header .header-left {
+  float: left;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-left span {
+  margin-left: 30px;
+}
+
+.header .header-right {
+  float: right;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+}
+
+/* Panel */
+.panel .image {
+  background-image: url(../imagens/cover.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: table;
+}
+
+.panel span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Cards */
+.card-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-columns .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #444444;
+  border-radius: 4px;
+  width: 280px;
+}
+
+.card-columns .card-body:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+}
+
+.card-columns .card-body img {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card-columns .card-body p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-columns .card-body button {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 0px;
+  border-style: none;
+  background-color: gray;
+  height: 40px;
+}
+
+.card-columns .card-body button:hover {
+  background-color: #686de0;
+}
+
+.card-columns .card-body button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-columns .card-body .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.card-columns .card-body .card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Footer */
+.footer {
+  background-color: #30336b;
+  width: 100%;
+  height: 50px;
+  display: table;
+}
+
+.footer > p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
