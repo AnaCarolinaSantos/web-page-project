@@ -1,2 +1,2 @@
 # web-page-project
- Web page created to practice css and html
+ Web page created to practice scss and html
